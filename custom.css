@@ -1,0 +1,89 @@
+.hero_image{
+    background: url(food.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    
+}
+/* UTILIRY CLASSES */
+.img_responsive{
+    max-width: 100%;
+    max-width: 100%;
+}
+.hero_wrapper{
+   
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.hero_wrapper h1{
+    color: white;
+    text-align: center;
+    top: 10%;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.hero_wrapper span{
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.form_code{
+    text-align: center;
+}
+
+.form_code .post_code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.form_code button{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none; 
+    text-align: center;
+    background-color: burlywood;
+    margin-top: 1%;
+
+}
+
+/* PRODUCT SECTION */
+.product{
+    width: 80%;
+    margin-top: .6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_list_item{
+    float: left;
+    width: 32%;
+    margin-left: 0.04rem;
+}
+
+.product_list_item:first-of-type{
+    margin-left: 0;
+}
+
+@media screen and (max-width: 700px){
+    .product_list_item{
+        width: 100%;
+        float: none;
+    }
